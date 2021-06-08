@@ -1,0 +1,81 @@
+:root{
+    --verde:#088A85;
+    --azul: #72f6f1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color:var(--verde);
+    
+}
+
+.quemsomos{
+    background-color: var(--azul);    
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+
+}
+
+.logo{
+    width: 30%;
+    height: 40%;
+    padding: 8px;
+    
+}
+
+.rodape{
+    background: var(--verde);
+
+}
+
+.parceiros{    
+    text-align: left;
+    font-size: 24pt;
+}
+
+.rodape{
+    background-color: #c3d9d8;
+}
+
+.col-lg-4{
+    display: flex;
+    border-radius: 100%;
+    overflow: hidden;
+    width: -50%;
+    height: -50%;
+
+}
+
+
+.servicos{
+    background-color: #f5f8f8;
+    padding-top: 50px    
+}
+
+.col-lg-3{
+    padding-top: 10%;    
+    background-color:#f5f8f8;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 3% 1rem;            
+    
+    
+}
+
+
+    
+    
+
+
